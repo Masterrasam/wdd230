@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page for Sammy Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="The homepage for the Sammy Chamber of Commerce to showcase 
+      businesses in the area, help business owners network, help new people 
+      moving into the area find businesses and discover activities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img id="toplogo" src="images/samlogo.svg" alt="Sammy Logo" />
+      </div>
+      <h1>
+        SAMMY<span id="cc"><br />Chamber of Commerce</span>
+      </h1>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="blank">
+          <img src="images/fbicon.svg" alt="Facebook Icon" width="35"
+        /></a>
+        <a href="https://www.twitter.com/" target="blank">
+          <img src="images/twit.svg" alt="Twitter Icon" width="35"
+        /></a>
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href="#" onclick="toggleMenu()"
+              ><span>&#9776;</span><span>X</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html" title="Sammy Home Page" class="active"
+              >Home</a
+            >
+          </li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <p>
+        <span id="currentDate"></span>
+      </p>
+    </header>
+
+    <main>
+      <section class="boxes">
+        <div class="box1">
+          <h2>Hero & Call To Action</h2>
+        </div>
+        <div class="box2">
+          <h2>Event</h2>
+        </div>
+        <div class="box3">
+          <h2>Weather</h2>
+        </div>
+        <div class="box4">
+          <h2>News Release</h2>
+        </div>
+        <div class="box5">
+          <h2>Join</h2>
+        </div>
+        <div class="box6">
+          <div>Spotlight 1</div>
+          <div>Spotlight 2</div>
+          <div>Spotlight 3</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="foot1">
+        <div>
+          <img src="images/samlogo.svg" alt="Sammy Logo" />
+        </div>
+        <div class="address">
+          <h3>Sammy Chamber of Commerce</h3>
+          <p>1, opeoluwa street, oyo state <br />ibadan, nigeria</p>
+        </div>
+        <div class="urlsite">
+          <p>thehollyhillchamber.com <br />+2348039875258</p>
+          <a href="https://goo.gl/maps/FRgi5k49Jti4teqC9"
+            ><img
+              src="images/pin.svg"
+              alt="Location Map"
+              width="20"
+            />&nbsp;&nbsp; Location Map</a
+          >
+        </div>
+      </section>
+      <p id="lastline">
+        &copy; <span id="currentYear"></span> Sammy chamber | Samuel
+        Okoosi | WDD 230 Project | Last Updated: <span id="modDate"></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
