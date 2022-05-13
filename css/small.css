@@ -93,7 +93,7 @@ nav {
     padding: .2rem;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom, red #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    background: linear-gradient(to bottom,  #f7a92b, #028c45, #21409a) top / var(--d, 0);
     transition: .2s;
 }
 
