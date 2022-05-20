@@ -24,35 +24,32 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href=".ico" />
   </head>
 
   <body>
     <header>
       <div>
-        <img id="toplogo" src="images/samlogo.svg" alt="Sammy Logo" />
+        <img
+          id="toplogo"
+          src="images/samlogo.svg"
+          alt="Sammy Logo"
+          width="150"
+        />
       </div>
       <h1>
-        SAMMY<span id="cc"><br />Chamber of Commerce</span>
+        SAMMY<span id="smtitle"><br />Chamber of Commerce</span>
       </h1>
-      <div class="social">
-        <a href="https://www.facebook.com/" target="blank">
-          <img src="images/fbicon.svg" alt="Facebook Icon" width="35"
-        /></a>
+      <div class="social"><a href="https://www.facebook.com/" target="blank"><img src="images/fbicon.svg" alt="Facebook Icon" width="35"/></a>
         <a href="https://www.twitter.com/" target="blank">
           <img src="images/twit.svg" alt="Twitter Icon" width="35"
         /></a>
       </div>
       <nav>
-        <ul class="navbar">
+        <button id="menuButton"><span>&#9776</span><span>X</span></button> 
+        <ul id="mainNav">
           <li>
-            <a href="#" onclick="toggleMenu()"
-              ><span>&#9776;</span><span>X</span></a
-            >
-          </li>
-          <li>
-            <a href="index.html" title="Sammy Home Page" class="active"
-              >Home</a
-            >
+            <a href="index.html" title="Sammy Home Page" class="active">Home</a>
           </li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
@@ -64,49 +61,78 @@
         <span id="currentDate"></span>
       </p>
     </header>
-
+    <aside id="banner">
+      "Come join us for the chamber meet and greet Mondays at 7:00 a.m." -----------&nbsp;<button id="close">&#10060;</button>
+    </aside>
     <main>
       <section class="boxes">
-        <div class="box1">
-          <h2>Hero & Call To Action</h2>
+        <div class="hero-image"><img src="images/hillside.jpg" alt="Hillside" />
+          <h2 class="welcome">Welcome to Sammy chamber!</h2> 
+          <section class="hero-cta"><a href="join.html">Join the Chamber</a></section>
         </div>
-        <div class="box2">
-          <h2>Event</h2>
+        <div class="event"><img src="images/butterfly.webp" alt="Butterfly Release" />
+          <h2 class="box-title">Event</h2>
+          <p>Butterfly Release - August 22nd to celebrate the last week of summer break.</p>
         </div>
-        <div class="box3">
-          <h2>Weather</h2>
+        <div class="weather"><img class="sky" src="images/sky.webp" alt="Sky" />
+          <h2 class="box-title">Weather</h2>
+          <span id="rain"><img id="cloud" src="images/rainy.svg" alt="Rain Cloud" /></span>
         </div>
-        <div class="box4">
-          <h2>News Release</h2>
+        <div class="news"><img src="images/elon.jpg" alt="twitter" />
+          <h2 class="box-title">News Release</h2>
+          <p> Elon Musk bought twitter  
+          </p>
         </div>
-        <div class="box5">
-          <h2>Join</h2>
+        <div class="join"><img src="images/chamb.jpg" alt="Sammy Chamber Building" />
+          <h2 class="box-title">Join</h2>
+          <section class="join-cta"><a href="join.html">Join the Chamber</a></section>
+          <p>Join the Sammy Chamber of Commerce.</p>
         </div>
-        <div class="box6">
-          <div>Spotlight 1</div>
-          <div>Spotlight 2</div>
+        <div class="spotlight">
+          <div>
+            <h3>Sammy Equestrian Center</h3>
+            <img src="images/horse.webp" alt="Equestrian" />
+            <p>get the latest <b>entertainmrnt</b> on Sammy chambers. watch the latest gist of social media life
+            </p>
+            <p><b>samuelokoosi21@gmail.com<br>+2348039875258</b></p>  
+          </div>
+          <div>
+            <h3>Sweet Tooth Sugar Shop</h3>
+            <img src="images/candy.webp" alt="Candy Shop" />
+            <p><b>Grand opening</b> on main street on August 5. Every sweet treat you can imagine 
+              can be found in the new candy shop in the Hollyhill center.
+            </p>
+            <p><b>www.sweettoothsugarshop.com<br>832-238-0146</b></p>
+          </div>
+          <div>
+            <h3>PetVet</h3>
+            <img src="images/puppy.webp" alt="Puppies" />
+            <p><b>Petvet Clinic</b> is holding a dog training clinic for all residents 
+              and their pets. July 26 at 10:00 am.
+            </p>
+            <p><b>https://petvet.vippetcare.com/<br>832-238-2443</b></p>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <section class="foot1">
+      <section class="lower">
         <div>
-          <img src="images/samlogo.svg" alt="Sammy Logo" />
+          <img class="bottom-logo" src="images/samlogo.svg" alt="Sammy Logo" />
         </div>
         <div class="address">
           <h3>Sammy Chamber of Commerce</h3>
-          <p>1, opeoluwa street, oyo state <br />ibadan, nigeria</p>
+          <p>1 opeoluwa street  <br />Ibadan, Nigeria</p>
         </div>
-        <div class="urlsite">
-          <p>samuelokoosi21@gmail.com <br />+2348039875258</p>
+        
+  
         </div>
       </section>
       <p id="lastline">
-        &copy; <span id="currentYear"></span> Sammy chamber | Samuel
+        &copy; <span id="currentYear"></span> Sammy Chamber | Samuel
         Okoosi | WDD 230 Project | Last Updated: <span id="modDate"></span>
       </p>
     </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
-` 
