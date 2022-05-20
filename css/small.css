@@ -115,7 +115,6 @@ nav button {
 
 nav button:hover {
     color: white;
-    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
     transition: .2s;
     --d: 100%;
 }
