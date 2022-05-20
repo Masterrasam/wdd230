@@ -266,7 +266,7 @@ nav ul.open {display: block;
 }
 
 .spotlight div {
-    background: linear-gradient(0.75turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
+    background: linear-gradient(0.75turn, skyblue white, blue, white);
 }
 
 /* Footer */
@@ -308,7 +308,7 @@ footer #lastline {
 #banner {
     display: none;
     text-align: center;
-    background: linear-gradient(0.25turn, #fe3d44, #fac97b, #33d17f, #4371fb);
+    background: linear-gradient(0.25turn, gray,  white, gray );
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
