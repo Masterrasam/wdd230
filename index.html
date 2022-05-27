@@ -29,14 +29,14 @@
 
   <body>
     <header>
-      <div>
-        <img
-          id="toplogo"
-          src="images/samlogo.svg"
-          alt="Sammy Logo"
-          width="150"
+      <picture id="toplogo">
+        <source
+          srcset="images/samlogo.svg"
+          media="(min-width: 370px) and (max-width: 599px)"
         />
-      </div>
+        <source srcset="images/logo125.webp" media="(min-width: 600px)" />
+        <img src="images/logo60.webp" alt="Sammy Logo" />
+      </picture>
       <h1>
         SAMMY<span id="smtitle"><br />Chamber of Commerce</span>
       </h1>
@@ -49,7 +49,9 @@
         <button id="menuButton"><span>&#9776</span><span>X</span></button> 
         <ul id="mainNav">
           <li>
-            <a href="index.html" title="Sammy Home Page" class="active">Home</a>
+            <a href="index.html" title="Sammy Home Page" class="active"
+              >Home</a
+            >
           </li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
@@ -57,53 +59,137 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <p>
-        <span id="currentDate"></span>
-      </p>
     </header>
+    <section id="currentDate">
+      <span>Date</span>
+    </section>
     <aside id="banner">
-      "Come join us for the chamber meet and greet Mondays at 7:00 a.m." -----------&nbsp;<button id="close">&#10060;</button>
+      "Come join us for the chamber meet and greet mondays at 7:00 a.m." - - -
+      - - &nbsp;<button id="close">&#10060;</button>
     </aside>
     <main>
       <section class="boxes">
-        <div class="hero-image"><img src="images/hillside.jpg" alt="Hillside" />
-          <h2 class="welcome">Welcome to Sammy chamber!</h2> 
-          <section class="hero-cta"><a href="join.html">Join the Chamber</a></section>
+        <div class="hero">
+          <picture class="hero-image">
+            <source
+              srcset="images/hillside.jpg"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/hillside.jpg"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/test542.webp" alt="Sammy Rainbow" />
+          </picture>
+          <h2 class="welcome">Welcome to sammy!</h2>
+          <div class="hero-cta">
+            <a href="join.html">Join the Chamber</a>
+          </div>
         </div>
-        <div class="event"><img src="images/butterfly.webp" alt="Butterfly Release" />
+        <div class="event">
+          <picture>
+            <source
+              srcset="images/butterfly.webp"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/butterfly.webp"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/butterfly.webp" alt="butterfly" />
+          </picture>
           <h2 class="box-title">Event</h2>
-          <p>Butterfly Release - August 22nd to celebrate the last week of summer break.</p>
-        </div>
-        <div class="weather"><img class="sky" src="images/sky.webp" alt="Sky" />
-          <h2 class="box-title">Weather</h2>
-          <span id="rain"><img id="cloud" src="images/rainy.svg" alt="Rain Cloud" /></span>
-        </div>
-        <div class="news"><img src="images/elon.jpg" alt="twitter" />
-          <h2 class="box-title">News Release</h2>
-          <p> Elon Musk bought twitter  
+          <p>
+            Butterfly Release - August 22nd to celebrate the last week of summer break
           </p>
         </div>
-        <div class="join"><img src="images/chamb.jpg" alt="Sammy Chamber Building" />
-          <h2 class="box-title">Join</h2>
-          <section class="join-cta"><a href="join.html">Join the Chamber</a></section>
+        <div class="weather">
+          <h2>Weather</h2>
+          <picture>
+            <source
+              srcset="images/dandy355.webp"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/dandy355.webp"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/dandy355.webp" alt="Dew Drops" />
+          </picture>
+          <div class="info">
+          <p id="w1"><span class="current-temp">54</span>&deg;F</p>
+          <p id="w2">Wind Speed: <span class="wind-speed">20</span> mph</p>
+          <p id="w3">Wind Chill: <span class="windchill"></span></p>
+          </div>
+        </div>
+        <div class="news">
+          <picture>
+            <source
+              srcset="images/elon.jpg"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/elon.jpg"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/elon.webp" alt="twitter news" />
+          </picture>
+          <h2>News - Release</h2>
+          <p>
+            Elon bought twitter 
+          </p>
+        </div>
+        <div class="join">
+          <picture>
+            <source
+              srcset="images/chamb.jpg"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/chamb.jpg" alt=" Sammy Chamber Building" />
+          </picture>
+          <h2>Sammy Chamber</h2>
+          <div class="join-cta">
+            <a href="join.html">Join the Chamber</a>
+          </div>
           <p>Join the Sammy Chamber of Commerce.</p>
         </div>
         <div class="spotlight">
           <div>
             <h3>Sammy Equestrian Center</h3>
-            <img src="images/horse.webp" alt="Equestrian" />
-            <p>get the latest <b>entertainmrnt</b> on Sammy chambers. watch the latest gist of social media life
+            <picture>
+              <source
+                srcset="images/horse.webp"
+                media="(min-width: 600px) and (max-width: 999px)"
+              />
+              <source
+                srcset="images/horse.webp"
+                media="(min-width: 1000px)"
+              />
+              <img src="images/horse.webp" alt="Horseback Riding" />
+            </picture>
+            <p>
+              Riding and jumping lessons available at the new Hollyhill
+              Equestrian Center.
+              <hr>
             </p>
-            <p><b>samuelokoosi21@gmail.com<br>+2348039875258</b></p>  
+            <p>
+              <b>www.hollyhilleques.com<br />832-238-6410</b>
+            </p>
           </div>
           <div>
 
-            <h3>PetVet</h3>
+            <h3>Pet Vet</h3>
+            <picture>
             <img src="images/puppy.webp" alt="Puppies" />
-            <p><b>Petvet Clinic</b> is holding a dog training clinic for all residents 
+            </picture>
+            <p>
+              Petvet Clinic</b> is holding a dog training clinic for all residents 
               and their pets. July 26 at 10:00 am.
             </p>
-            <p><b>https://petvet.vippetcare.com/<br>832-238-2443</b></p>
+            <hr>
+            <p>
+              <b>https://petvet.vippetcare.com<br />832-238-2443</b>
+            </p>
           </div>
         </div>
       </section>
@@ -111,14 +197,18 @@
     <footer>
       <section class="lower">
         <div>
-          <img class="bottom-logo" src="images/samlogo.svg" alt="Sammy Logo" />
+          <img
+            id="bottom-logo"
+            src="images/samlogo.svg"
+            alt="Sammy Logo"
+          />
         </div>
         <div class="address">
-          <h3>Sammy Chamber of Commerce</h3>
-          <p>1 opeoluwa street  <br />Ibadan, Nigeria</p>
+          <h3>sammy Chamber of Commerce</h3>
+          <p>no 1 opeoluwa street, molete <br />Ibadan, nigeria</p>
         </div>
-        
-  
+        <div class="web">
+          <p>samuelokoosi21@gmail.com <br />+2348039875258</p>
         </div>
       </section>
       <p id="lastline">
@@ -127,5 +217,6 @@
       </p>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>

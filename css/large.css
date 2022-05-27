@@ -1,32 +1,49 @@
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: 1000px){
     header {
-        grid-template-columns: 120px 240px 1fr 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;   
     }
-    header .social {
-        grid-column: 4/5;
-        grid-row: 1/2;
-        justify-content: right;
+    
+    main {
+        padding: 1rem 5.5rem;
     }
-
+    
+    h1 {
+        font-size: 44.5px;
+    }
+    
+    #smtitle {
+        font-size: 21px;
+    }
+    
+     /*------Bigger title in fullscreen------*/   
+    @media only screen and (min-width: 1200px){
+    h1 {
+        font-size: 54px;
+    }
+    #smtitle {
+        font-size: 25.5px;
+    }   
+    }
+    
     /* navigation bar */
-    nav button { 
+    #menuButton { 
         display: none;
     }
-
+    
+    .social {
+        order: 2;    
+    }
+    
+        
     nav ul#mainNav {
         display:flex;
-        justify-content: center;
-        align-content: center;
+        order: 3;
         border-top: 2px solid rgba(0, 0, 0, 0.3);
         border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-        width: 510px;
-        position: unset;
-    }
-
-    nav ul li a {
-        font-size: 1.1rem;
-        border: none;
-        padding: .7rem 1.5rem;
     }
     
     #mainNav {
@@ -34,44 +51,48 @@
         border: none;
     }
     
-    /* main grid layout */
-    .boxes {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr px;
-        padding: 10px;
+    nav ul li a {
+        font-size: 1.1rem;
+        border: none;
+        padding: .7rem 1.5rem;
     }
-    
-    .hero-image {
+        
+     /* main grid layout */
+    .boxes {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.8rem;
+    }
+        
+    .hero {
         grid-row: 1/3;
         grid-column: 2/4;
     }
-    
+        
     .event {
         grid-row: 1/2;
     }
-    
+        
     .weather {
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    
+        
     .news {
         grid-column: 2/4;
         grid-row: 3/4;
     }
-    
+        
     .join {
         grid-column: 1/2;
         grid-row: 3/4;
     }
-    
+        
     .spotlight {
         grid-column: 4/5;
         grid-row: 1/4;
         grid-template-columns: 1fr;
     }  
-    
+        
     .spotlight div:nth-child(3) {
         display: block;
     }
