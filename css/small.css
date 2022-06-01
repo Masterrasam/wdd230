@@ -29,7 +29,7 @@ header {
 
 header,
 footer {
-   background: linear-gradient(0.25turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
+   background: linear-gradient(0.25turn,red #d5defb);
 }
 
 header .social {
@@ -53,7 +53,7 @@ header .social img {
 
 /* ------Main----- */
 main { 
-    background: linear-gradient(0.25turn, #8c181b, #f7a92b, #028c45, #21409a);
+    background: linear-gradient(0.25turn, gray, white, gray, white);
     border-top: 10px solid #ffffff;
     border-bottom: 10px solid #ffffff;
     padding: 10px;
@@ -69,8 +69,7 @@ h1 {
     font-size: 13px;
 }
 
-/* ----to make logo smaller in very small mobile view ------*/
-@media only screen and (max-width: 370px) {
+/* ----to make logo smaller in very small mobile view ------*/media only screen and (max-width: 370px) {
 header {
     grid-template-columns:  70px 2.5fr 1fr 35px;
     column-gap: 12px;
@@ -98,7 +97,7 @@ nav ul li a {
     color: #000000;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    background: linear-gradient(to bottom, gray, white, gray, white) top / var(--d, 0);
     transition: .2s;
 }
 
@@ -117,7 +116,7 @@ nav ul li a:hover {
 
 #menuButton:hover {
     color: white;
-    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    
     transition: .2s;
     --d: 100%;
 }
@@ -195,12 +194,12 @@ nav ul.open {display: block;}
     background-color: #8c181b;
 }
 
-.welcome {
+#welcome {
     font-size: 2rem;
 }
  
 /* Event Box */
-h2 {
+.tbox {
     position: absolute;
     color: rgb(232, 232, 232);
     text-shadow: 2px 4px 4px black;
@@ -236,7 +235,7 @@ h2 {
     padding-top: 15px;
 }
 
-#w2{
+#w2, #w3 {
     padding: 10px; 
     border-top: 3px solid #ffffff; 
     font-size: 1.2rem;
@@ -262,7 +261,7 @@ h2 {
     grid-row: 5/7;   
 }
 
-h3 {
+.sbox {
     text-align: center;
     padding-bottom: 10px;
     line-height: 1.1rem;
@@ -333,4 +332,37 @@ footer #lastline {
 #close {
     padding: 3px;
     background-color: #f7c72b;
+}
+
+/*-----DISCOVER PAGE------*/
+.tgallery {
+    font-size: 1.7rem;
+    color: rgb(232, 232, 232);
+    text-shadow: 2px 4px 4px black;
+}
+.gallery-page {
+    display: grid;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery p {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.gallery img[data-src] {
+	filter: blur(.6em);
+}
+
+.gallery img{
+	filter: blur(0);
+	transition: filter .6s;
+    margin: 10px;
+    border: 10px double black;
+    box-shadow: 10px 10px 10px rgb(84, 101, 60);
 }

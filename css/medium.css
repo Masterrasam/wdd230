@@ -75,4 +75,14 @@
     .web {
         text-align: right;
     }
+    
+    /*-----DISCOVER PAGE------*/
+    .gallery {
+        grid-row: 1/5;   
+    }
+    
+    .towninfo {
+        grid-column: 2/4;
+    }
+    
     }

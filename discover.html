@@ -7,7 +7,7 @@
     <title>Home Page for Sammy Chamber of Commerce</title>
     <meta
       name="description"
-      content="The homepage for the Sammy Chamber of Commerce to showcase 
+      content="The homepage for the Hollyhill Chamber of Commerce to showcase 
       businesses in the area, help business owners network, help new people 
       moving into the area find businesses and discover activities, events, weather 
       and how to join the chamber."
@@ -47,12 +47,12 @@
       <button id="menuButton"><span>&#9776;</span><span>X</span></button>
       <nav>
         <ul id="mainNav">
+          <li><a href="index.html" title="Sammy Home Page">Home</a></li>
           <li>
-            <a href="index.html" title="Sammy Home Page" class="active"
-              >Home</a
+            <a href="discover.html" title="Town Information" class="active"
+              >Discover</a
             >
           </li>
-          <li><a href="discover.html">Discover</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -62,86 +62,79 @@
     <div id="currentDate">
       <span>Date</span>
     </div>
-    <aside id="banner">
-      "Come join us for the chamber meet and greet Mondays at 7:00 a.m." - - -
-      - - &nbsp;<button id="close">&#10060;</button>
-    </aside>
+
     <main>
-      <section class="boxes">
-        <div class="hero">
-          <picture class="hero-image">
-            <source
-              srcset="images/rainbow967.webp"
-              media="(min-width: 600px) and (max-width: 999px)"
-            />
-            <source
-              srcset="images/cha.jpg"
-              media="(min-width: 1000px)"
-            />
-            <img src="images/cha.jpg" alt="hill" />
-          </picture>
-          <h2 class="tbox" id="welcome">Welcome to Sammy chambers!</h2>
-          <div class="hero-cta">
-            <a href="join.html">Join the Chamber</a>
-          </div>
-        </div>
-        <div class="event">
+      <section class="gallery-page">
+        <div class="gallery">
+          <h2 class="tgallery">Sammy Gallery</h2>
           <picture>
-            <source
-              srcset="images/butterfly.webp"
-              media="(min-width: 600px) and (max-width: 999px)"
+            <img
+              src="images/bow.webp"
+              data-src="images/town.jpg"
+              alt="Sammy Town Square"
             />
-            <source
-              srcset="images/butterfly.webp"
-              media="(min-width: 1000px)"
-            />
-            <img src="images/butterfly.webp" alt="butterfly" />
           </picture>
-          <h2 class="tbox">Event</h2>
-          <p> butterfly release- 4th of august at lawton park by 10 pm.</p>
-        </div>
-        <div class="weather">
-          <h2 class="tbox">Weather</h2>
-          <div class="info">
-            <p id="w1"><span id="temp">50</span>&#176;F</p>
-            <p id="w2">Wind Speed: <span id="windspeed">4</span> mph</p>
-            <p id="w3">Wind Chill: <span id="windchill"></span></p>
-          </div>
-        </div>
-        <div class="news">
+          <p>Sammy Town Square</p>
           <picture>
-            <source
-              srcset="images/lol.png"
-              media="(min-width: 600px) and (max-width: 999px)"
+            <img
+              src="images/bow.webp"
+              data-src="images/castle.jpg"
+              alt="sammy Castle"
             />
-            <source
-              srcset="images/lol.png"
-              media="(min-width: 1000px)"
-            />
-            <img src="images/lol.png" alt="wrigley" />
           </picture>
-          <h2 class="tbox">News - wrigley field</h2>
-          <p>
-            wrigley field is now known as the famous baseball stadium digital art
-          </p>
-        </div>
-        <div class="join">
+          <p>dream castle of sammy </p>
           <picture>
-            <source
-              srcset="images/chamb.jpg"
-              media="(min-width: 1000px)"
+            <img
+              src="images/bow.webp"
+              data-src="images/vill.jpg"
+              alt="vill"
             />
-            <img src="images/chamb.jpg" alt="Chamber Building" />
           </picture>
-          <h2 class="tbox">Sammy Chamber</h2>
-          <div class="join-cta">
-            <a href="join.html">Join the Sammy Chamber</a>
-          </div>
-          <p>Join the Sammy Chamber of Commerce.</p>
+          <p>Ranchers Village  Celebration</p>
+          <picture>
+            <img
+              src="images/bow.webp"
+              data-src="images/river.jpg"
+              alt="Sammy River"
+            />
+          </picture>
+          <p>Sammy River</p>
+          <picture>
+            <img
+              src="images/bow.webp"
+              data-src="images/barn.jpg"
+              alt="Barn Activity Center"
+            />
+          </picture>
+          <p>The Community Center on Sammy</p>
+          <picture>
+            <img
+              src="images/bow.webp"
+              data-src="images/bridge.jpg"
+              alt="Covered Bridge"
+            />
+          </picture>
+          <p>The  Bridge of Sammy</p>
+          <picture>
+            <img
+              src="images/bow.webp"
+              data-src="images/rivercafe.jpg"
+              alt="River Cafe"
+            />
+          </picture>
+          <p>The River Cafe on Sammy</p>
+          <picture>
+            <img
+              src="images/bow.webp"
+              data-src="images/vines.jpg"
+              alt="Secret Garden"
+            />
+          </picture>
+          <p>Sammy Town Square</p>
         </div>
-        <div class="spotlight">
+        <div class="towninfo">
           <div>
-            <h3 class="sbox">Sammy Equestrian Center</h3>
+            <h3>Hollyhill Equestrian Center</h3>
             <picture>
               <source
                 srcset="images/horse.webp"
@@ -154,7 +147,7 @@
               <img src="images/horse.webp" alt="Horseback Riding" />
             </picture>
             <p>
-              Riding and jumping lessons on horses are available at the new holly
+              Riding and jumping lessons available at the new Holly
               Equestrian Center.
             </p>
             <hr />
@@ -163,7 +156,7 @@
             </p>
           </div>
           <div>
-            <h3 class="sbox">Historic Wedgewood Inn</h3>
+            <h3>Historic Wedgewood Inn</h3>
             <picture>
               <source
                 srcset="images/inn437.webp"
@@ -181,7 +174,8 @@
               <b>www.wedgewoodinn.com<br />832-238-0146</b>
             </p>
           </div>
-
+          <div>
+          
       </section>
     </main>
     <footer>
@@ -195,10 +189,10 @@
         </div>
         <div class="address">
           <h3>Sammy Chamber of Commerce</h3>
-          <p>No 1, Opeoluwa Street <br />Ibadan, Nigeria</p>
+          <p>NO 1, Opeoluwa street <br />Ibadan, Nigerias</p>
         </div>
         <div class="web">
-          <p>samuelokoosi21@gmail.com <br />+2348039875258</p>
+          <p>Samuelokoosi21@gmail.com <br />+2348039875258</p>
           <a href="https://goo.gl/maps/FRgi5k49Jti4teqC9"
             ><img src="images/pin.svg" alt="Location Pin" width="20" /> Location
             Map</a
@@ -206,11 +200,11 @@
         </div>
       </section>
       <p id="lastline">
-        &copy; <span id="currentYear"></span> Sammy Chamber| Samuel
-        Okoosi| WDD 230 Project | Last Updated:4:00pm <span id="modDate"></span>
+        &copy; <span id="currentYear"></span> sammy Chamber | Samuel
+        Okoosi | WDD 230 Project | Last Updated:4:00pm <span id="modDate"></span>
       </p>
     </footer>
     <script src="js/script.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/lazyload.js"></script>
   </body>
 </html>
