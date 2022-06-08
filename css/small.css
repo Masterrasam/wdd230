@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -69,18 +70,13 @@ h1 {
     font-size: 13px;
 }
 
-/* ----to make logo smaller in very small mobile view ------*/media only screen and (max-width: 370px) {
-header {
-    grid-template-columns:  70px 2.5fr 1fr 35px;
-    column-gap: 12px;
-}
 h1 {
     font-size: 25px;
 }
 #smtitle {
     font-size: .7rem;
 }
-}
+
 
 /* ------navigation bar------ */
 nav {
