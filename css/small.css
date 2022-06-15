@@ -54,7 +54,7 @@ header .social img {
 
 /* ------Main----- */
 main { 
-    background: linear-gradient(0.25turn, gray, white, gray, white);
+    background: linear-gradient(0.25turn,rgb(110, 110, 110), rgb(210, 212, 212), rgb(114, 114, 113), rgb(245, 245, 245));
     border-top: 10px solid #ffffff;
     border-bottom: 10px solid #ffffff;
     padding: 10px;
