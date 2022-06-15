@@ -1,4 +1,4 @@
-const requestURL = "https://hollygammo.github.io/wdd230/chamber/json/data.json";
+const requestURL = "https://masterrasam.github.io/wdd_230_dev1/json/data.json";
 
 fetch(requestURL)
   .then(function (response) {
