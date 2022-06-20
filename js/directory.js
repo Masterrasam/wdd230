@@ -5,9 +5,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    
-    
+    console.table(jsonObject);
+
     const directory = jsonObject['directory'];
     const groups = document.querySelector('.groups');
 
@@ -27,11 +26,11 @@ fetch(requestURL)
         picture.setAttribute('loading', 'lazy');
        
         // Change the textContent property of the h2 element to contain the prophet's full name
-        companyName.textContent = `${company.companyName}`;
-        address.textContent = `${company.address}`;
-        phoneNumber.textContent = `${company.phoneNumber}`;
-        website.textContent = `${company.website}`;
-        membershipLevel.textContent = `${company.membershipLevel}`;
+        companyName.innerHTML = `${company.companyName}`;
+        address.innerHTML = `${company.address}`;
+        phoneNumber.innerHTML = `${company.phoneNumber}`;
+        website.innerHTML = `${company.website}`;
+        membershipLevel.innerHTML = `${company.membershipLevel}`;
       
         // Add/append the section(card) with the h2 element
         group.appendChild(picture);
@@ -40,8 +39,7 @@ fetch(requestURL)
         group.appendChild(phoneNumber);
         group.appendChild(website);
         group.appendChild(membershipLevel);
-        
-        
+    
         // Add/append the existing HTML div with the cards class with the section(card)
         groups.append(group);
     });

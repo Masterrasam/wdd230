@@ -1,3 +1,4 @@
+/* Get Current Date for Header */
 const currentDateSpan = document.querySelector("#currentDate");
 const now = new Date();
 
@@ -14,7 +15,7 @@ const x = document.querySelector("#menuButton");
 x.onclick = toggleMenu;
 
 
-/* last modified */
+/* last modified for Footer*/
 let nd = new Date();
 
 document.getElementById("currentYear").textContent = nd.getFullYear();
