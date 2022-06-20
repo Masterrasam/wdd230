@@ -119,7 +119,7 @@ nav ul li a {
     color: #000000;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    background: linear-gradient(to bottom, #8c181b) top / var(--d, 0);
     transition: .2s;
 }
 
