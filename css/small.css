@@ -591,7 +591,7 @@ form fieldset {
 }
 
 .groups {
-    display: grid;
+    display: inline-grid;
 }
 
 .groups img {
@@ -621,8 +621,7 @@ form fieldset {
 	margin: 1rem auto;
 	padding: 0.5rem;
 	text-align: center;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
+
 }
 
 .grid-buttons button {
@@ -643,7 +642,7 @@ form fieldset {
 }
 
 .list {
-    display:block;
+    display: inline-block;
 }
 
 .list div {
