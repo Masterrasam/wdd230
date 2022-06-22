@@ -116,10 +116,10 @@ nav ul {
 nav ul li a {
     display: block;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    color: #000000;
+    color: red;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom, #8c181b) top / var(--d, 0);
+    background: linear-gradient(to bottom, orange) top / var(--d, 0);
     transition: .2s;
 }
 
