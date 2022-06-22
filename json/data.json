@@ -1,46 +1,55 @@
 {
     "directory": [
-
+    {
+        "logo": "hock.svg",
+        "companyName": "Hollyhock Flower Shop",
+        "address": "18 Hollyhocks Ln. Hollyhill, FL 32117",
+        "phoneNumber": "(386) 238-1448",
+        "website": "www.hollyhockflowershop.com",
+        "membershipLevel": "Bronze Membership"
+    },
     {
         "logo": "golf.svg",
-        "companyName": "The Landslide Country Club",
+        "companyName": "The Hills Country Club",
         "address": "22 Hills Country  Hollyhill, FL 32117",
         "phoneNumber": "(386) 238-2142",
         "website": "www.thehillscountryclub.com",
         "membershipLevel": "Gold Membership"
     },
     {
+        "logo": "horse.svg",
+        "companyName": "Hollyhill Equestrian Center",
+        "address": "33 Equestrian Ct. Hollyhill, FL 32117",
+        "phoneNumber": "(832) 238-6410",
+        "website": "www.hollyhillequestrian.com",
+        "membershipLevel": "Silver Membership"
+    },
+    {
         "logo": "inn.svg",
-        "companyName": "Wedgewood Inn",
-        "address": "111 W Bridge St New Hope, PA 18938",
-        "phoneNumber": "(215) 862-2570",
+        "companyName": "Historic Wedgewood Inn",
+        "address": "44 Wedge Wood Rd. Hollyhill, FL 32117",
+        "phoneNumber": "(832) 238-0146",
+        "website": "www.wedgewoodinn.com",
         "membershipLevel": "Bronze Membership"
     },
     {
         "logo": "vet.svg",
-        "companyName": " VCA animals Hospital",
-        "address": "12401 West Olympic Blvd. los Angles, CA, 90064",
-        "phoneNumber": "13105716500",
-        "website": "https://vcahospitals.com/",
+        "companyName": "Hill Town Vet Hospital",
+        "address": "55 Hill Town Ave. Hollyhill, FL 32117",
+        "phoneNumber": "(832) 238-2443",
+        "website": "www.hilltownvets.com",
         "membershipLevel": "Gold Membership"
     },
     {
-        "logo": "hock.jpg",
-        "companyName": "flowers by NDIANI",
-        "address": "25 osuntokun avenue ",
-        "phoneNumber": "08057006207",
-        "membershipLevel": "Bronze Membership"
-    },
-    {
-        "logo": "candy.webp",
-        "companyName": "New Albany Sugar Shoppe",
-        "address": "56 Pearl Street New Albany, IN 47150",
-        "phoneNumber": "8129203016",
-        "website": "newalbanysugarshoppe@gmail.com",
+        "logo": "candy.svg",
+        "companyName": "Sweet Tooth Sugar Shop",
+        "address": "66 Sugar Tree Ln. Hollyhill, FL 32117",
+        "phoneNumber": "(386) 238-6146",
+        "website": "www.sweettooths.com",
         "membershipLevel": "Silver Membership"
     },
     {
-        "logo": "icecream.jpg",
+        "logo": "icecream.svg",
         "companyName": "Holly Berry Ice Cream",
         "address": "77 Berry Ice Ave. Hollyhill, FL 32117",
         "phoneNumber": "(386) 238-7147",
@@ -48,7 +57,7 @@
         "membershipLevel": "Gold Membership"
     },
     {
-        "logo": "food.jpg",
+        "logo": "food.svg",
         "companyName": "The Golden Hills Cafe",
         "address": "88 Goldens Drive Hollyhill, FL 32117",
         "phoneNumber": "(386) 238-8148",
@@ -56,8 +65,8 @@
         "membershipLevel": "Silver Membership"
     },
     {
-        "logo": "bank.png",
-        "companyName": "united Credit Union",
+        "logo": "bank.svg",
+        "companyName": "Hollyhill Credit Union",
         "address": "99 Union Hill Ct. Hollyhill, FL 32117",
         "phoneNumber": "(386) 238-9149",
         "website": "www.hhcreditunion.com",
