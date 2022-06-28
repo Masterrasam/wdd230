@@ -116,10 +116,10 @@ nav ul {
 nav ul li a {
     display: block;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    color: red;
+    color: #000000;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom, orange) top / var(--d, 0);
+    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
     transition: .2s;
 }
 
@@ -138,7 +138,7 @@ nav ul li a:hover {
 
 #menuButton:hover {
     color: white;
-    background: linear-gradient(to bottom, gray, white) top / var(--d, 0);
+    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
     transition: .2s;
     --d: 100%;
 }
@@ -150,7 +150,7 @@ nav ul li a:hover {
 
 #mainNav {   
     border: 2px solid black;
-    background: linear-gradient(0.5turn, rgb(104, 4, 18), rgb(14, 2, 2) );   
+    background: linear-gradient(0.5turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);   
 }
 
 nav ul {display: none;}
@@ -340,7 +340,7 @@ figcaption {
 }
 
 .spotlight div {
-    background: linear-gradient(0.25turn, gray, white, gray, gray);
+    background: linear-gradient(0.25turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
 }
 
 /* Footer */
@@ -440,6 +440,7 @@ footer #lastline a {
 
 .demographics p {
     padding: 5px 0;
+    color: white;
 }
 
 .visit-distance {
@@ -447,6 +448,7 @@ footer #lastline a {
     border: 2px solid white;
     padding-bottom: 20px;
     margin: 20px 0 10px 40px;
+    color: white;
 }
 
 .chart {
@@ -458,15 +460,16 @@ footer #lastline a {
     color: rgb(232, 232, 232);
     text-shadow: 2px 4px 4px black;
     line-height: 1.5rem;
-    padding: 30px 0 30px;
+    padding: 30px 0 10px;
 }
 
 form fieldset {
     border: 3px solid black;
     border-radius: 10px;
-    padding: 0.5rem 2% 2rem 2%;
-    background: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem 2% 0.5% 2%;
+    background: rgba(255, 255, 255, 0.5);
     box-shadow: 5px 5px 10px rgb(61, 61, 61);
+    margin-bottom: 20px;
   }
   
   form legend {
@@ -508,9 +511,9 @@ form fieldset {
     height: 8rem;
   }
   
-  form button.send {
+  form button.send, .sndc {
     border: none;
-    background-color: #0076B2;
+    background-color: #21409a;
     color: rgb(255, 255, 255);
     border-radius: .5rem;
     padding: 0.75rem 1.5rem;
@@ -519,6 +522,7 @@ form fieldset {
     max-width: 45rem;
     cursor: pointer;
     font-size: .9rem;
+    font-weight: 600;
     box-shadow: 5px 5px 10px rgb(61, 61, 61);
   }
   
@@ -530,7 +534,7 @@ form fieldset {
     border-left: 10px solid green;
   }
 
-  .memberships h3 {
+  .main-join h3 {
     color: white;
     margin: 15px 0 0 30px;
     font-size: 1.5rem;
@@ -591,7 +595,7 @@ form fieldset {
 }
 
 .groups {
-    display: inline-grid;
+    display: grid;
 }
 
 .groups img {
@@ -613,15 +617,13 @@ form fieldset {
 
 /* Directory - Grid & List Buttons */
 .grid {
-    display:grid;
-    gap:50px 100px;
+    display: grid;
   }
 
 .grid-buttons {
 	margin: 1rem auto;
 	padding: 0.5rem;
 	text-align: center;
-
 }
 
 .grid-buttons button {
@@ -642,7 +644,7 @@ form fieldset {
 }
 
 .list {
-    display: inline-block;
+    display:block;
 }
 
 .list div {
@@ -660,4 +662,47 @@ form fieldset {
   
 .list div:nth-child(even) {
     background: linear-gradient(0.40turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
+}
+
+/*-------Contact Page-------*/
+.contact {
+    display: grid;
+}
+.contact img {
+    border: 10px double black;
+    grid-column: 2/3;
+    object-fit: cover;
+    height: 100%;
+}
+
+.cham-info {
+    grid-column: 1/2;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 10px double black;
+}
+
+.mem-info {
+    margin: 0 auto;
+    max-width: 45rem; 
+    font-weight: 600;  
+}
+
+.ct {
+    text-align: center;
+    padding: 30px;
+    line-height: 2rem;
+}
+
+.mem-info h2 {
+    padding: 40px 0 30px;
+    text-align: center;
+}
+
+.band {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1), rgba(0, 0, 255, 0));
+    padding: 20px;
+    text-align: center;
+    line-height: 2rem; 
+    margin: 50px 0 30px;
 }
