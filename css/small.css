@@ -123,9 +123,9 @@ nav ul li a {
     transition: .2s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
     color: white;
-    --d: 100%;   
+--d: 100%; 
 }
 
 #menuButton {
