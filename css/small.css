@@ -92,8 +92,7 @@ h2 {
 
 /* ----to make logo smaller in very small mobile view ------*/
 @media only screen and (max-width: 370px) {
-header {
-    grid-template-columns:  70px 2.5fr 1fr 35px;
+header { grid-template-columns:  70px 2.5fr 1fr 35px;
     column-gap: 12px;
 }
 h1 {
@@ -119,13 +118,11 @@ nav ul li a {
     color: #000000;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom,  #21409a) top / var(--d, 0);
     transition: .2s;
 }
 
 nav ul li a:hover{
-    color: white;
---d: 100%; 
+    color: white; --d: 100%; 
 }
 
 #menuButton {
@@ -139,8 +136,7 @@ nav ul li a:hover{
 #menuButton:hover {
     color: white;
     background: linear-gradient(to bottom,#028c45, #21409a) top / var(--d, 0);
-    transition: .2s;
-    --d: 100%;
+    transition: .2s; --d: 100%;
 }
 
 #mainNav .active {
