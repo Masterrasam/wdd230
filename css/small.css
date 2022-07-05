@@ -7,7 +7,7 @@
 body {
     font-family: 'Catamaran', sans-serif;
     max-width: 1700px;
-    min-width: 325px;
+    min-width: 360px;
     margin: 0 auto;
 }
 
@@ -92,7 +92,8 @@ h2 {
 
 /* ----to make logo smaller in very small mobile view ------*/
 @media only screen and (max-width: 370px) {
-header { grid-template-columns:  70px 2.5fr 1fr 35px;
+header {
+    grid-template-columns:  70px 2.3fr 1.2fr 35px;
     column-gap: 12px;
 }
 h1 {
@@ -118,11 +119,13 @@ nav ul li a {
     color: #000000;
     text-align: center;
     text-decoration: none;   
+    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
     transition: .2s;
 }
 
-nav ul li a:hover{
-    color: white; --d: 100%; 
+nav ul li a:hover {
+    color: white;
+    --d: 100%;   
 }
 
 #menuButton {
@@ -135,8 +138,9 @@ nav ul li a:hover{
 
 #menuButton:hover {
     color: white;
-    background: linear-gradient(to bottom,#028c45, #21409a) top / var(--d, 0);
-    transition: .2s; --d: 100%;
+    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    transition: .2s;
+    --d: 100%;
 }
 
 #mainNav .active {
@@ -181,6 +185,7 @@ nav ul.open {display: block;}
     display: grid;
     gap: 25px;
     padding: 10px;
+    justify-content: center;
 }
 
 .boxes div {
@@ -270,7 +275,7 @@ nav ul.open {display: block;}
 }
 
 
-#w2, #w3 {
+#w2 {
     padding: 10px; 
     border-top: 3px solid #ffffff; 
     font-size: 1.2rem;
@@ -280,10 +285,7 @@ nav ul.open {display: block;}
 #w4 {
     grid-row: 1/2;
 }
-
-#w3 {
-    grid-row: 3/4; 
-}
+ 
 
 #weather-icon {
     width: 80px;
@@ -312,31 +314,41 @@ figcaption {
 }
 
 /* Spotlight Box */
+
 .spotlight {
     display: grid;
     gap: 10px;
     height: 100%;
-    grid-row: 5/7;   
+    grid-row: 5/7; 
+    text-align: center;
 }
 
-.sbox {
-    text-align: center;
-    padding-bottom: 10px;
-    line-height: 1.1rem;
+.spotlight .busName {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    line-height: 1.5rem;
+    padding: 5px 0 10px;
 }
+
+.spotlight img {
+    max-width: 208px;
+  }
 
 .spotlight div:nth-child(3) {
     display: none;
 }
 
 .spotlight p {
-    line-height: 1.1;
-    font-size: .9rem;
-    padding: 7px 10px 5px;
+    font-size: 1.1rem;
+    padding: 2.5px 10px;
 }
 
 .spotlight div {
     background: linear-gradient(0.25turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
+}
+
+.busMembership {
+    font-weight: bold;
 }
 
 /* Footer */
@@ -390,7 +402,7 @@ footer #lastline a {
     font-size: 1.7rem;
     color: rgb(232, 232, 232);
     text-shadow: 2px 4px 4px black;
-    text-align: center;
+    text-align: center;   
     padding: 10px 0 15px;
 }
 
@@ -401,7 +413,7 @@ footer #lastline a {
 .gallery {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
     max-width: 475px;
     margin: 0 auto;
 }
@@ -409,6 +421,7 @@ footer #lastline a {
 .gallery p {
     font-weight: bold;
     margin-top: -10px;
+    margin-left: 10px;
 }
 
 .gallery img[data-src] {
@@ -418,7 +431,6 @@ footer #lastline a {
 .gallery img{
 	filter: blur(0);
 	transition: filter .6s;
-    margin: 10px;
     border: 10px double black;
     box-shadow: 10px 10px 10px rgb(84, 101, 60);
 }
@@ -430,8 +442,9 @@ footer #lastline a {
     grid-row: 1/2;   
 }
 .demographics {
-    padding-left: 40px;
     grid-row: 2/3;
+    text-align: center;
+    padding: 0 10px 20px 10px;
 }
 
 .demographics p {
@@ -443,7 +456,7 @@ footer #lastline a {
     text-align: center;
     border: 2px solid white;
     padding-bottom: 20px;
-    margin: 20px 0 10px 40px;
+    margin: 10px;
     color: white;
 }
 
@@ -538,7 +551,7 @@ form fieldset {
 
 .memberships div {
     border: 10px double black;
-    margin: 0 0 15px 30px;
+    margin: 0 0 15px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgb(61, 61, 61);
 }
@@ -614,8 +627,6 @@ form fieldset {
 /* Directory - Grid & List Buttons */
 .grid {
     display: grid;
-    grid-template-columns:550px 550px;
-
   }
 
 .grid-buttons {
@@ -671,6 +682,7 @@ form fieldset {
     grid-column: 2/3;
     object-fit: cover;
     height: 100%;
+    margin-top: 20px;
 }
 
 .cham-info {
