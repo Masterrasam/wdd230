@@ -93,4 +93,53 @@
     .spotlight div:nth-child(3) {
         display: block;
     }
+    
+    /*-----DISCOVER PAGE------*/
+    .gallery-page {
+        grid-template-rows: 90px 1fr auto;
+        grid-template-columns: 475px 1fr;
+    }
+    .gallery {
+        grid-column: 1/2;
+        grid-row: 1/4; 
+        padding-right: 40px;
+        border-right: 5px solid black;
+    }
+    .visit-distance {
+        grid-row: 3/4;
+        margin: 20px 0 10px 40px;
+    }
+    .demographics {
+        grid-row: 2/3;
+    }
+    .chart {
+        display: contents;
+    }
+    
+    /*---Discover---*/
+    .demographics {
+        padding-left: 40px;
+    }
+    
+    .list div {
+        display: flex;
+    }
+    
+    .list h3 {
+        Width: 240px;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+    
+    .list p {
+        padding-right: 30px;
+        line-height: 1.2rem;
+    }
+    
+    /*--------Contact Page--------*/
+    .contact {
+        grid-template-columns: 30% 1fr;
+        gap: 30px;
+      }
+    
     }
