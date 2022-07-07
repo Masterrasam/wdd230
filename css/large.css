@@ -90,9 +90,7 @@
         grid-template-columns: 1fr;
     }  
         
-    .spotlight div:nth-child(3) {
-        display: block;
-    }
+
     
     /*-----DISCOVER PAGE------*/
     .gallery-page {
