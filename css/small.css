@@ -75,7 +75,7 @@ main {
 }
 
 h1 {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     font-size: 28px;
     line-height: .5; 
 }
@@ -211,7 +211,7 @@ nav ul.open {display: block;}
 
  div .hero-cta, div .join-cta {
     position: absolute; 
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     Font-size: 19px;
     background-color: rgba(14, 60, 178, 0.7);
     border: 1px solid black;
