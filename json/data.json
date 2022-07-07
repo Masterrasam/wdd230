@@ -51,6 +51,14 @@
             "companyName": "The Golden Hills Cafe",
             "address": "88 Goldens Drive Hollyhill, FL 32117",
             "phoneNumber": "(386) 238-8148",
+            "membershipLevel": "Silver Membership"
+        },
+
+        {
+            "logo": "ame.jpg",
+            "companyName": "water park",
+            "address": "4701 Great America Pkwy, Santa Clara, CA 95054, United States",
+            "phoneNumber": "+1 408-988-1776",
             "website": "www.goldenscafe.com",
             "membershipLevel": "Silver Membership"
         },
