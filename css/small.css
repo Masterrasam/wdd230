@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     max-width: 1700px;
     min-width: 360px;
     margin: 0 auto;
@@ -60,7 +60,7 @@ header #toplogo img {
     text-align: center;
     padding: 5px 0 5px;
     border: 2px solid #000000;
-    background: linear-gradient(0.25turn, #21409a, #028c45, #f7a92b, #8c181b);
+    background: linear-gradient(0.25turn, #21409a, #8c181b);
     color: white;
     font-size: 1.3rem;
     font-weight: 600;
@@ -68,7 +68,7 @@ header #toplogo img {
 
 /* ------Main----- */
 main { 
-    background: linear-gradient(0.25turn, #8c181b, #f7a92b, #028c45, #21409a);
+    background: linear-gradient(0.25turn, #8c181b,white, #21409a);
     border-top: 10px solid #ffffff;
     border-bottom: 10px solid #ffffff;
     padding: 10px;
@@ -77,7 +77,7 @@ main {
 h1 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
-    line-height: .5;   
+    line-height: .5; 
 }
 
 h2 {
@@ -119,12 +119,12 @@ nav ul li a {
     color: #000000;
     text-align: center;
     text-decoration: none;   
-    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    background: linear-gradient(to bottom,  #21409a) top / var(--d, 0);
     transition: .2s;
 }
 
 nav ul li a:hover {
-    color: white;
+    color: gray;
     --d: 100%;   
 }
 
@@ -138,7 +138,7 @@ nav ul li a:hover {
 
 #menuButton:hover {
     color: white;
-    background: linear-gradient(to bottom, #8c181b, #f7a92b, #028c45, #21409a) top / var(--d, 0);
+    background: linear-gradient(to bottom,  #21409a) top / var(--d, 0);
     transition: .2s;
     --d: 100%;
 }
