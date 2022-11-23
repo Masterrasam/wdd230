@@ -1,5 +1,5 @@
 /* ===== Spotlights =====*/
-const URLrequest =  "https://masterrasam.github.io/wdd230/json/data.json";
+const URLrequest =  "https://masterrasam.github.io/wdd230/chamber/json/data.json";
 const containers = document.querySelector(".spotlight-container");
 
 fetch(URLrequest)
