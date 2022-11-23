@@ -39,6 +39,15 @@
             "membershipLevel": "Silver Membership"
         },
         {
+            "logo": "food.jpg",
+            "companyName": "The Golden Hills Cafe",
+            "address": "88 Goldens Drive Hollyhill, FL 32117",
+            "phoneNumber": "(386) 238-8148",
+            "website": "www.goldenscafe.com",
+            "membershipLevel": "Silver Membership"
+        },
+
+        {
             "logo": "icecream.jpg",
             "companyName": "Holly Berry Ice Cream",
             "address": "77 Berry Ice Ave. Hollyhill, FL 32117",
@@ -46,14 +55,7 @@
             "website": "www.berryicecream.com",
             "membershipLevel": "Gold Membership"
         },
-        {
-            "logo": "food.jpg",
-            "companyName": "The Golden Hills Cafe",
-            "address": "88 Goldens Drive Hollyhill, FL 32117",
-            "phoneNumber": "(386) 238-8148",
-            "membershipLevel": "Silver Membership"
-        },
-
+        
         {
             "logo": "ame.jpg",
             "companyName": "water park",

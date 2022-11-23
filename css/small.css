@@ -319,7 +319,8 @@ figcaption {
     display: grid;
     gap: 10px;
     height: 100%;
-    grid-row: 5/7; 
+    grid-row: 1/4;
+    grid-column:span; 
     text-align: center;
 }
 
@@ -334,16 +335,16 @@ figcaption {
     max-width: 208px;
   }
 
-.spotlight div:nth-child(3) {
-    display: none;
-}
+  .spotlight3 {
+    display:none;
+  }
 
 .spotlight p {
     font-size: 1.1rem;
     padding: 2.5px 10px;
 }
 
-.spotlight div {
+.spotlight1 div {
     background: linear-gradient(0.25turn, #f9d4d5, #faedd9, #d4fae6, #d5defb);
 }
 
