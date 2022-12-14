@@ -353,13 +353,15 @@ footer{
     z-index: 0;
 }
 
-.face:hover .back{
+.face:hover .back
+{
     transform: rotateY(0);
     z-index: 1;
 }
 
 
-.visit iframe{
+.visit iframe
+{
    margin: .5rem;
    width: 90%;
    height: 300px;
@@ -371,7 +373,8 @@ footer{
     padding: .6rem;
 }
 
-.visit form fieldset{
+.visit form fieldset
+{
     font-family: 'Montserrat', sans-serif;
     margin: 1.3rem 0;
     padding: .5rem;
@@ -381,16 +384,18 @@ footer{
     
 }
 
-.form_fresh form fieldset{
+.form_fresh form fieldset
+{
     margin: 2.2rem;
     border: 2px solid #D69024;
     border-radius: 10px;
 }
 
-.visit form legend, .form_fresh form legend{
-    margin: 0 1rem;
-    padding: 0 5.rem;
-    font-size: 1.3rem;
+.visit form legend, .form_fresh form legend
+{
+    margin:0.1rem;
+    padding:0.5rem;
+    font-size:1rem;
     font-weight: bold;
 }
 
@@ -436,7 +441,7 @@ footer{
     padding: .75rem 1.5rem;
     margin: .6rem 0 2rem;
     width: 95%;
-    max-width: auto;
+    max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     font-weight: bold;
