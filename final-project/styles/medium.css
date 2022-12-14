@@ -1,0 +1,132 @@
+@media only screen and (min-width: 35rem) {
+    
+    /* Header */
+    #container-header picture{
+        width: 85%;
+    }
+    
+    nav button{
+        display: none;
+    }
+
+    nav ul#bar_nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav{
+        order: 0;
+        align-content: center;
+        border: none;
+    }
+
+    nav ul li a{
+        border-bottom: 3px solid white;
+        border-top: 3px solid white;
+    }
+
+    .icons{
+        order: 1;
+        font-size: 20px
+    }
+
+    /* Footer */
+    #container-footer{
+        display: flex;
+        padding: 5px;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    } 
+
+    .separation{
+        display: flex;
+    }
+
+    .baseboard{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Home Page */
+
+    main{
+        margin: 1rem;
+    }
+
+    #weather_container h1{
+        font-size: 2rem;
+    }
+
+    .weather{
+        display: flex;
+        width: auto;
+    }
+
+    .weather > div{
+        width: 50%;
+    }
+
+    .box{
+        width: 300px;
+    }
+
+
+    /* About Us Page */
+    .history-text h1, .visit h1{
+        font-size: 1.8rem;
+    }
+
+    .history-text p, .visit p{
+        font-size: 1.2rem;
+    }
+ 
+    .history-text picture img{
+        width: 380px;
+        float: left;
+    }
+
+    #container-flip{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .flip1, .flip2, .flip3{
+        margin: .5rem;
+    }
+
+    .visit iframe{
+        width: 98%;
+        height: 400px;
+    }
+
+
+
+    .mix{
+        background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+        background-position: center;
+        background-size:cover;
+        height: 90vh;
+        justify-content: space-around;
+        align-items: center;
+        padding: .5rem;
+        margin: .5rem;
+
+    }
+
+    .mix h2{
+        text-align: center;
+        padding: .5rem;
+        margin: .5rem;
+    }
+
+    .form_fresh{
+        height: 90vh;
+    }
+
+
+
+
+}
