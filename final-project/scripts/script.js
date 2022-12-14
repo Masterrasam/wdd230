@@ -93,7 +93,7 @@ if("IntersectionObserver" in window){
 }
 
 //Fruits List
-const request_home = "./js/fruits.json";
+const request_home = "./json/fruits.json";
 const fruits = document.querySelector('#fruits_opt');
 const btn = document.querySelector('#btnSend');
 

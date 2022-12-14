@@ -1,4 +1,4 @@
-const request = "./js/fruits.json";
+const request = "./json/fruits.json";
 const first_fruit = document.querySelector('#first_fruit');
 const second_fruit = document.querySelector('#second_fruit');
 const third_fruit = document.querySelector('#third_fruit');
