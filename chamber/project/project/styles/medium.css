@@ -1,0 +1,95 @@
+@media(min-width: 42em){
+    /* Bountiful Foods Text */
+    .first .text{
+        top: 35%;
+        padding: 3.5rem 0;
+    }
+    .first .text h1{
+        font-size: 4rem;
+    }
+
+
+
+    /* Body */
+    .second img{
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        border-radius: 20px;
+    }
+
+    .four{
+        display: flex;
+    }
+
+    .third{
+        padding: .25rem .25rem;
+    }
+    .un{
+        border: 1px solid black;
+        border-radius: 12px;
+        box-shadow: 0 0 5px var(--primary);
+        margin: 1rem .75rem;
+    }
+    .third .drink{
+        margin-bottom: 1rem;
+    }
+    
+    
+    
+    /* Footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+    .feed{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .concat{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+    .footer{
+        flex-direction: row;
+        gap: 0;
+        padding: .5rem 1rem;
+    
+    }
+    .footer .logo_link{
+        width: 5rem;
+    }
+    .footer_nav ul{
+        list-style-type: none;
+        padding: 1rem 2rem;
+    
+        gap: .75rem;
+    }
+    .link_icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+        width: 30%;
+        padding: 1rem;
+    }
+
+    .information{
+        margin: 0 auto;
+        padding: 0 .75rem;
+    }
+}
